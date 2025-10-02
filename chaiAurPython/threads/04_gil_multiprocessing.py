@@ -4,7 +4,7 @@ import time
 def crunch_number():
     print(f"Started the count process...")
     count = 0
-    for _ in range(100_000_000):
+    for _ in range(100_000_000_000):
         count += 1
     print(f"Ended the count process...")
 

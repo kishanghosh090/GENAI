@@ -8,7 +8,7 @@ def brew_chai():
         count += 1
     print(f"{threading.current_thread().name} finished brewing...")
 
-thread1 =threading.Thread(target=brew_chai, name="Barista-1")
+thread1 = threading.Thread(target=brew_chai, name="Barista-1")
 thread2 = threading.Thread(target=brew_chai, name="Barista-2")
 
 start = time.time()
